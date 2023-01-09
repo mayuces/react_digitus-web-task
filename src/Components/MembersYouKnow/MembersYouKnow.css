@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+
+.slider-area {
+  max-width: 670px;
+  width: 100%;
+  background-color: rgba(223, 230, 233, 0.39);
+  border-radius: 31px;
+  font-family: 'Jost', sans-serif;
+  position: relative;
+
+}
+
+.slider-area-textfield {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
+  margin-left: 222px;
+  margin-right: 27px;
+  margin-bottom: 24px;
+}
+
+.slider-text {
+  font-size: 24px;
+  color: #636E72;
+  margin: 0;
+}
+
+.slider-area-cards {
+  display: flex;
+  gap: 10px;
+  margin-right: 27px;
+  margin-left: 27px;
+}
+
+.slider-seeAll-Btn {
+  border: none;
+  background-color: transparent;
+  color: #2D3436;
+  font-size: 14px;
+  font-weight: 700;
+}
+.slider-button-next {
+  position: absolute;
+  right: -15px;
+  top: 190px;
+}
+
+.slider-button-prev {
+  position: absolute;
+  left: -15px;
+  top: 190px;
+}
