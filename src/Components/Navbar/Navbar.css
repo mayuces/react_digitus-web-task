@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 62px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: #636E72;
+  z-index: 999;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.HomeIcon{
+  max-width: 115px;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+}
+
+.PlusIcon {
+  width: 41px;
+  height: 41px;
+}
+
+.mid-links {
+  display: flex;
+  list-style-type: none;
+  gap: 60px;
+}
+
+.mid-links_link {
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right-widget {
+  display: flex;
+  padding: 0 24px;
+  gap: 20px;
+  border-right: 1px #B2BEC3 solid;
+  border-left: 1px #B2BEC3 solid;
+}
+
+.notify-container {
+  display: inline-block;
+  align-items: center;
+  position: relative;
+}
+
+.notify-bubble {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  padding: 2px 4px 2px 4px;
+  background-color: #FF7675;
+  color: white;
+  font-size: 13px;
+  border-radius: 50%;
+  font-weight: 100;
+}
+
+.right-profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.right-button {
+  background-color: white;
+  border: none;
+}
+
+
+
