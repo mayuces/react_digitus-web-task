@@ -7,9 +7,7 @@ import PostItem from './Components/PostItem/PostItem';
 
 function App() {
   const data = fetchData();
-  console.log('====================================');
-  console.log("data", data);
-  console.log('====================================');
+
   return (
     <div className="App">
       <Navbar />

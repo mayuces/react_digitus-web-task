@@ -2,7 +2,7 @@ import React from "react";
 import "./PostBox.css";
 import PostIMG from "../../assets/PostIMG.png";
 import smile from "../../assets/Icons/smile.png";
-import line from "../../assets/Icons/line.png";
+import add from "../../assets/Icons/add.png";
 
 const PostBox = () => {
   return (
@@ -18,8 +18,7 @@ const PostBox = () => {
           <img src={smile} alt="like" />
         </div>
         <div className="postbox-add-icon">
-          <img src={line} alt="add" />
-          <img src={line} alt="add" />
+          <img src={add} alt="add" />
         </div>
       </div>
     </div>
