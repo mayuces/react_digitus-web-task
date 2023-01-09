@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+
+.minipost {
+  width: 237px;
+  height: 254px;
+  background: #fff;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 17px;
+  border-radius: 5px;
+}
+
+.minipost-user-info {
+  display: flex;
+  align-items: center;
+}
+
+.minipost-user-img-container {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.minipost-user-img {
+  height: 20px;
+  width: 20px;
+}
+
+.minipost-user-name {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.minipost-main-content {
+  width: 237px;
+  height: 127px;
+}
+
+.minipost-main-img {
+  width: 237px;
+  height: 127px;
+}
+
+.minipost-main-text {
+  margin: 9px 12px;
+}
+
+.minipost-widgets {
+  display: flex;
+  flex-direction: row;
+}
+
+.minipost-info--item {
+  display: flex;
+  margin-left: 25px;
+}
+
+.minipost-time-text {
+  font-size: 12px;
+  margin-right: 4px;
+  line-height: 6px;
+}
+
+.minipost-info--item-style {
+  font-size: 12px;
+  color: #B2BEC3;
+  margin-right: 4px;
+  line-height: 6px;
+}

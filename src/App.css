@@ -1,8 +1,25 @@
-.App {
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.left {
+.content-left {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 32px;
+  margin-right: 110px;
+  gap: 50px;
+}
+
+.content-right {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-right--miniposts {
+  margin-bottom: 150px;
 }
