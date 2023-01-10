@@ -3,8 +3,7 @@ import "./MembersYouKnowItem.css"
 import PostIMG from "../../assets/PostIMG.png";
 
 
-const MembersYouKnowItem = () => {
-  const isDoctor = false;
+const MembersYouKnowItem = ({isDoctor}) => {
 
   return (
     <div className='member-card'>
