@@ -22,15 +22,11 @@ const PostItem = () => {
           <div className="postitem-user--image">
             {isDoctor ? (
               <div className="postitem-image-container--doctor">
-                <div className="postitem-image-container">
-                  <img className="postitem-profile-img" src={PostIMG} alt="" />
-                </div>
+                <img className="postitem-profile-img" src={PostIMG} alt="" />
               </div>
             ) : (
               <div className="postitem-image-container--user">
-                <div className="postitem-image-container">
-                  <img className="postitem-profile-img" src={PostIMG} alt="" />
-                </div>
+                <img className="postitem-profile-img" src={PostIMG} alt="" />
               </div>
             )}
           </div>

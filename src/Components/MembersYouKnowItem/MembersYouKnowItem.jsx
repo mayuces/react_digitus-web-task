@@ -11,9 +11,15 @@ const MembersYouKnowItem = () => {
       <button className='member-card-discard'>
         x
       </button>
-      <div className='member-card-profile-img'>
-          <img src={PostIMG} alt="" />
-      </div>
+      {isDoctor ? (
+        <div className='member-card-profile-img--container-doctor'>
+        <img className='member-card-profile-img' src={PostIMG} alt="" />
+    </div>
+      ) : (
+        <div className='member-card-profile-img--container'>
+            <img className='member-card-profile-img' src={PostIMG} alt="" />
+        </div>
+      )}
       <p className='member-card-name'>John Doe</p>
       {isDoctor && (
         <p className='member-card-doctor'>Medical Doctor</p>
